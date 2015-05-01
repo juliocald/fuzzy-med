@@ -155,7 +155,6 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
     }
 
-    //TODO: Agregarle todas las medicinas asociadas a esa receta
     // Proceso de fetch de medicinas muy lento??
     public Prescription getPrescription(int ID){
         String name = Integer.toString(ID);
